@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: beige;
+}
+.header div{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: unset; 
+}
+.btn:focus{
+    box-shadow: none;
+  }
+h3, h4{
+    text-transform: uppercase;
+    color: #1B1A55;
+}
+.para{
+    text-transform: uppercase;
+    color: red;
+}
+.dis{
+    text-transform: capitalize;
+    color:#1D24CA;
+}
+#mountain{
+    height: 100vh;
+    /* position: absolute;
+    top: 50px; */
+}
+#waterfall{
+    height: 100vh;
+    /* position: relative;
+    top: 50px; */
+}
+#flowerpark{
+    min-height: 100vh;
+    /* position: relative;
+    top: 50px; */
+}
+#river{
+    min-height: 100vh;
+    /* position: relative;
+    top: 50px; */
+}
+#forest{
+    height: 100vh;
+    /* position: relative;
+    top: 50px; */
+}
